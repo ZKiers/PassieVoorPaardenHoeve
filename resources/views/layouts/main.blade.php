@@ -23,11 +23,11 @@
                   Dropdown button
                 </button>
                 <ul class="dropdown-menu dropdown-menu-light fullw" aria-labelledby="dropdownMenuButton2">
-                  <li><a class="dropdown-item" href="#">Home</a></li>
-                  <li><a class="dropdown-item" href="#">Activiteiten</a></li>
-                  <li><a class="dropdown-item" href="#">Game</a></li>
-                  <li><a class="dropdown-item" href="#">About</a></li>
-                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="{{ route('home') }}">Home</a></li>
+                  <li><a class="dropdown-item" href="{{ route('activiteiten') }}">Activiteiten</a></li>
+                  <li><a class="dropdown-item" href="{{ route('game') }}">Game</a></li>
+                  <li><a class="dropdown-item" href="{{ route('about') }}">About</a></li>
+                  <li><a class="dropdown-item" href="{{ route('contact') }}">Contact</a></li>
                 </ul>
               </div>
     
@@ -39,35 +39,35 @@
           <div class="col-sm-2 nav-link my-auto  font-weight-bold d-none d-sm-block">
             <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="text-2 nav-link" href="#">Home</a>
+              <a class="text-2 nav-link" href="{{ route('home') }}">Home</a>
             </li>
           </ul>
           </div>
           <div class="col-sm-2 nav-link my-auto  font-weight-bold d-none d-sm-block">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link text-2" href="#">Activiteiten</a>
+                <a class="nav-link text-2" href="{{ route('activiteiten') }}">Activiteiten</a>
               </li>
             </ul>
           </div>
           <div class="col-sm-2 nav-link my-auto  font-weight-bold d-none d-sm-block">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link text-2" href="#">Game</a>
+                <a class="nav-link text-2" href="{{ route('game') }}">Game</a>
               </li>
             </ul>
           </div>
           <div class="col-sm-2 nav-link my-auto  font-weight-bold d-none d-sm-block">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link text-2" href="#">About</a>
+                <a class="nav-link text-2" href="{{ route('about') }}">About</a>
               </li>
             </ul>
           </div>
           <div class="col-sm-2 nav-link my-auto  font-weight-bold d-none d-sm-block">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link text-2" href="#">Contact</a>
+                  <a class="nav-link text-2" href="{{ route('contact') }}">Contact</a>
                 </li>
               </ul>
           </div>
